@@ -27,3 +27,6 @@
 #df.describe().transpose()
 #pd.concat([df1,df2],axis=1)
 #pd.merge(df1,df2,on='Key') 
+# right=pd.DataFrame({'A':'C0 C1 C2'.split(), 'B': 'D0 D1 D2'.split()}, index='K1 K2 K3'.split())
+# left=pd.DataFrame({'C':'C0 C1 C2'.split(), 'D': 'D0 D1 D2'.split()}, index='K1 K2 K3'.split())
+# left.join(right)
