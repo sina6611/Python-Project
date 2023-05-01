@@ -30,3 +30,8 @@
 # right=pd.DataFrame({'A':'C0 C1 C2'.split(), 'B': 'D0 D1 D2'.split()}, index='K1 K2 K3'.split())
 # left=pd.DataFrame({'C':'C0 C1 C2'.split(), 'D': 'D0 D1 D2'.split()}, index='K1 K2 K3'.split())
 # left.join(right) 
+# right['A'].nunique()
+# df1['Key'].value_counts()
+# df3=pd.DataFrame({'A':[1, 2, 3, 4, 5, 6, 7 ,8 ,9],'B':[9, 8, 7, 6 ,5 ,4, 3, 2, 1]})
+# b=df3['B']
+# b.sum()
