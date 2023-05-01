@@ -35,3 +35,4 @@
 # df3=pd.DataFrame({'A':[1, 2, 3, 4, 5, 6, 7 ,8 ,9],'B':[9, 8, 7, 6 ,5 ,4, 3, 2, 1]})
 # b=df3['B']
 # b.sum()
+# pip install lxml
